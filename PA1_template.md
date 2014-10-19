@@ -51,10 +51,10 @@ plot(patt$V2, patt$V1,type="l")
 
 ```r
 # Find interval that has highest number of steps
-high_steps <- patt$V2[which.max(patt$V2)]
+high_steps <- patt$V1[which.max(patt$V1)]
 ```
 
-The interval that contains the maximum number of steps is 2355
+The interval that contains the maximum number of steps is 206.1698
 
 
 ## Imputing missing values

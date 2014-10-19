@@ -44,7 +44,7 @@ for (i in 1:nrow(int)) {
 plot(patt$V2, patt$V1,type="l")
 
 # Find interval that has highest number of steps
-high_steps <- patt$V2[which.max(patt$V2)]
+high_steps <- patt$V1[which.max(patt$V1)]
 ```
 
 The interval that contains the maximum number of steps is `r high_steps`
